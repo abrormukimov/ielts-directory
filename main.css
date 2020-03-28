@@ -291,6 +291,140 @@ a {
 }
 /* General info bottom */
 
+
+/* SEARCH PAGE TOP */
+
+.main-2-ctn {
+  width: 100%;
+  background-color: white;
+}
+
+.search-opt-ctn {
+  background: rgb(231, 231, 231);
+  margin: 50px auto 10px auto;
+}
+
+.srch-ctn {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.mn-title {
+  text-align: center;
+  color: rgb(92, 85, 85);
+}
+
+.sel-opt-ctn {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 60px;
+}
+
+.h6 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.options {
+  margin-left: 5px;
+}
+
+.form-3 {
+  padding: 1px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-3 {
+  border: none;
+  border-radius: 2px;
+  padding: 5px 2px;
+  font-size: 13px;
+  box-shadow: 0 0 5px #726f6f;
+}
+
+.select-1 {
+  border: none;
+  border-radius: 2px;
+  padding: 4.1px 3px;
+  font-size: 13px;
+  box-shadow: 0 0 5px #726f6f;
+  background-color: white;
+  outline: none;
+}
+
+.btn-5,
+.btn-6 {
+  border: none;
+  border-radius: 2px;
+  padding: 6px 20px;
+  background-color: #0e0acec0;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 44.8px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #726f6f;
+}
+
+.btn-6 {
+  width: 100px;
+  background-color: rgb(230, 165, 45);
+}
+
+.res-title {
+  text-align: center;
+}
+
+.res-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.l-centres {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.r-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.r-txt {
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(92, 85, 85);
+}
+
+.r-txt a {
+  color: blue;
+}
+
+.r-txt > h3 {
+  margin: 0px 20px 5px 0;
+  border-bottom: 1px solid rgb(92, 85, 85);
+}
+
+.ft-srch-page {
+  margin-top: 50px;
+}
+
+.l-centres:hover {
+  box-shadow: 0 0 10px rgb(92, 85, 85);
+  transform: scale(1.03);
+}
+
+
+/* SEARCH PAGE BOTTOM */
 .links:hover {
   cursor: pointer;
   color: #000;
