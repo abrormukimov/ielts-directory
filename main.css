@@ -17,14 +17,23 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: auto 80px;
 }
 
 .links {
-  padding: 20px 15px;
+  padding: 10px 15px;
   color: #f1f1f1;
   font-weight: 600;
+}
+
+.nav-right {
+  display: flex;  
+}
+
+.logoname {
+  font-size: 46px;
 }
 
 .main-ctn {
@@ -425,12 +434,202 @@ a {
 
 
 /* SEARCH PAGE BOTTOM */
+
+/* Sign UP TOP */
+
+.main-sign-ctn {
+  width: 100%;
+  background-color: rgb(209, 209, 209);
+  padding: 20px 0;
+}
+
+.sign-section {
+  margin: 40px;
+}
+
+.fillin-ctn {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  padding: 40px;
+}
+
+.fillin > .h6 {
+  margin: 10px 0 4px 0;
+}
+
+.form-4 {
+  padding: 0px 0px;
+}
+
+.input-4 {
+  width: 98%;
+  border: none;
+  border-bottom: 1px dashed gray;
+  border-radius: 2px;
+  padding: 12px 4px;
+  font-size: 18px;
+  box-shadow: 0 0 5px #726f6f;
+  background-color: rgb(216, 216, 216);
+}
+
+.btn-7 {
+  border: none;
+  border-radius: 2px;
+  padding: 6px 20px;
+  background-color: #ee4116c0;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #726f6f;
+  margin: 10px 0;
+}
+
+.btn-8 {
+  border: none;
+  background: none;
+  font-weight: 800;
+  font-size: 13px;
+  margin: 10px 0;
+  padding: 6px 20px;
+}
+
+.btn-a3 {
+  color: rgb(53, 207, 53);
+}
+
+.btn-7:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-8:hover {
+  background: rgb(0, 0, 138);
+  border-radius: 2px;
+  padding: 6px 20px;
+}
+
+.ft-logo {
+  background: url(images/location1.png) no-repeat center center;
+  background-size: 60px 60px;
+  background-color: #000;
+}
+
+/* SIGN UP BOTTOM */
+
+
+/* Centre TOP */
+.main-centre-ctn {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.centre-ctn {
+  width: 90%;
+  margin: 40px auto 10px auto;
+  border: none;
+  box-shadow: 0 0 5px #9b9594;
+  background-color: white;
+  padding: 20px;
+}
+
+.c-title {
+  display: flex;
+  align-items: center;
+}
+
+.abc {
+  font-size: 28px;
+  color: red;
+  margin: 0 0 0 10px;
+}
+
+.centre-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.infos {
+  border: 0.5px solid gray;
+  box-shadow: 0 0 6px #9b9594;
+  padding: 5px;
+}
+
+.btn-9 {
+  border: none;
+  border-radius: 2px;
+  padding: 6px 20px;
+  background-color: #0e0acec0;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #726f6f;
+  float: right;
+}
+
+.other-info-ctn {
+  clear: both;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue-sp {
+  color: rgb(0, 0, 161);
+}
+
+.txt-info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.more-info-ctn {
+  width: 90%;
+  background-color: #d6d6d6;
+  margin: 10px auto 0 auto;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+.more-info-ctn > a {
+  color: #000;
+}
+
+.map-dir {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  color: red;
+}
+
+.map {
+  width: 90%;
+  height: 300px;
+  margin: 10px auto 0 auto;
+  background: url(images/map.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Centre BOTTOM */
+
 .links:hover {
   cursor: pointer;
   color: #000;
-  background-color: rgb(255, 0, 0);
+  border: 0.5px solid white;
+  box-shadow: 0 0 2px #f1f1f1;
   border-radius: 7px;
   padding: 10px 15px;
+}
+
+.main-logo:hover {
+  border: none;
+  box-shadow: none;
 }
 
 .btn:hover {
