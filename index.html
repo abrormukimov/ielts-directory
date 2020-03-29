@@ -18,27 +18,27 @@
       </div>
       <div class="nav-right">
         <div class="links link1">
-          <a href="#">
+          <a href="searchpage.html">
             <i class="fas fa-search-location"></i>
-            COURSES
+            <span class="sp-hide">COURSES</span> 
           </a>
         </div>
         <div class="links link2">
-          <a href="#">
+          <a href="#gen-info">
             <i class="fas fa-id-badge"></i>
-            ABOUT
+            <span class="sp-hide">ABOUT</span>
           </a>
         </div>
         <div class="links link3">
           <a href="#">
             <i class="fab fa-blogger"></i>
-            BLOG
+            <span class="sp-hide">BLOG</span>
           </a>
         </div>
         <div class="links link4">
-          <a href="#">
+          <a href="#gen-info">
             <i class="fas fa-bars"></i>
-            MORE
+            <span class="sp-hide">MORE</span>
           </a>
         </div>
       </div>
@@ -46,19 +46,21 @@
   </header>
 
   <main class="main-ctn">
-    <section class="container">
-      <div class="search-ctn">
-        <div class="hd-ctn">
-          <h1 class="heading">MAGLIE! YOUR PERSONAL ASSISTANT TO FIND THE BEST IELTS COURSES</h1>
-        </div>
-        <div class="form-ctn">
-          <form class="form" action="/method">
-            <input class="input" type="text" name="search">
-            <button class="btn"><a href="#">SEARCH</a></button>
-          </form>
-        </div>
-        <div class="btn-2">
-          <div class="how-it-works"><a href="#h-t">How It Works</a></div>
+    <section class="m-ctn-s">
+      <div class="container">
+        <div class="search-ctn">
+          <div class="hd-ctn">
+            <h1 class="heading">MAGLIE! YOUR PERSONAL ASSISTANT TO FIND THE BEST IELTS COURSES</h1>
+          </div>
+          <div class="form-ctn">
+            <div class="form">
+              <input class="input" type="text" name="search">
+              <button class="btn" onclick="document.location = 'searchpage.html'">SEARCH</button>
+            </div>
+          </div>
+          <div class="btn-2">
+            <div class="how-it-works"><a href="#h-t">How It Works</a></div>
+          </div>
         </div>
       </div>
     </section>
@@ -103,6 +105,86 @@
       </div>
     </section>
 
+    <section class="gi-container">
+      <div class="geninfo info1" id="gen-info">
+        <img class="image" src="images/geninfo1.jpg" alt="Learning centres">
+        <div class="txt-ctn">
+          <h3 class="hd-3 par">Over 5,000 IELTS learning centres are registered with us</h3>
+          <p class="par-1 par">Find a learning centre by using our search engine</p>
+          <button class="btn-3 par"><a href="#" class="btn-a">Find a course</a></button>
+        </div>
+      </div>
+      <div class="geninfo info2">
+        <img class="image" src="images/geninfo2.jpg" alt="Learning centres">
+        <div class="txt-ctn">
+          <h3 class="hd-3 par">No need to take 3 Matatus to find a learning centre in the country</h3>
+          <p class="par-1 par">Just press or click on the search button and You are all set</p>
+          <button class="btn-3 par"><a href="#" class="btn-a">Find a centre near you</a></button>
+        </div>
+      </div>
+      <div class="geninfo info3">
+        <img class="image" src="images/geninfo1.jpg" alt="Learning centres">
+        <div class="txt-ctn">
+          <h3 class="hd-3 par">Anytime and Anywhere Any way</h3>
+          <p class="par-1 par">Very convenient platforms that cut across any device including
+            our mobile ready web app and our mobile app coming soon to your app store.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="ft-1-ctn">
+      <div class="ft-links ft-link1">
+        <a href="#" class="ft-l-1">Home</a>
+        <a href="#" class="ft-l-1">SEARCH</a>
+        <a href="#" class="ft-l-1">ABOUT US</a>
+        <a href="#" class="ft-l-1">ADVERTISE</a>
+      </div>
+      <div class="ft-hide">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-search-location"></i>
+        <i class="fas fa-id-badge"></i>
+        <i class="fas fa-ad"></i>
+      </div>
+      <div class="ft-links ft-link2">
+        <a href="#" class="ft-l-1">FACEBOOK</a>
+        <a href="#" class="ft-l-1">TWITTER</a>
+        <a href="#" class="ft-l-1">BLOG</a>
+        <a href="#" class="ft-l-1">GOOGLE +</a>
+      </div>
+      <div class="ft-hide2">
+        <i class="fab fa-facebook-square ft-hide"></i>
+        <i class="fab fa-twitter ft-hide"></i>
+        <i class="fab fa-blogger ft-hide"></i>
+        <i class="fab fa-google-plus-g ft-hide"></i>
+
+      </div>
+      <div class="ft-logo"></div>
+    </div>
+    <div class="ft-2-ctn">
+      <div class="ft-grid">
+        <h3>SUBSCRIBE</h3>
+        <form class="form-2" action="/method">
+          <input class="input-2" type="text" name="search" placeholder="name@example.com">
+          <input class="input-2 inp-hide" type="text" name="search">
+          <button class="btn-4"><a href="#">SEND</a></button>
+        </form>
+      </div>
+      <div class="ft-grid">
+        <h3>CONTACT</h3>
+        <p>Have Any Questions Left?</p>
+        <span><a href="#" class="info-email">info@maglie.com</a></span>
+      </div>
+      <div class="ft-grid ft-hide3">
+        <h3>ABOUT</h3>
+        <p>Our company has been in the business world since 2010.
+          We help people find better courses to seek their dignity and success.
+          We work with more than 5,000 advanced learning centres with modern environment. <span><a href="#" class="info-email">Learn more</a></span>
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
