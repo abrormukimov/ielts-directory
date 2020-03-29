@@ -4,7 +4,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-* *:before *:after {
+* *::before *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-right {
-  display: flex;  
+  display: flex;
 }
 
 .logoname {
@@ -129,7 +129,6 @@ a {
   text-align: center;
 }
 
-
 .hiw-title {
   color: #d45749;
   font-size: 32px;
@@ -153,7 +152,6 @@ a {
   height: 40px;
 }
 
-/* General info page */
 .gi-container {
   display: flex;
   flex-direction: column;
@@ -175,7 +173,7 @@ a {
 }
 
 .info3 {
-  background-color: #3c56ca62;
+  background-color: #3b56cc62;
 }
 
 .image {
@@ -192,22 +190,34 @@ a {
   width: 36%;
 }
 
+.par1 {
+  color: #9b9594;
+}
+
 .btn-3 {
   padding: 5px 8px;
   border: none;
   border-radius: 3px;
   background: #f1f1f1;
-  box-shadow: 0 0 3px rgb(255, 0, 0);
+  box-shadow: 0 0 3px #9b9594;
+}
+
+.par2 {
+  color: #ee6a5b;
 }
 
 .btn-a {
   color: #eb1e08;
 }
 
-.btn-3:hover {
-  background-color: rgb(170, 170, 168);
-  cursor: pointer;
-  outline: none;
+.btn-4 {
+  border: none;
+  border-radius: 2px;
+  padding: 7px 10px;
+  background-color: #726f6f;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .footer {
@@ -301,23 +311,9 @@ a {
   display: none;
 }
 
-.btn-4 {
-  border: none;
-  border-radius: 2px;
-  padding: 7px 10px;
-  background-color: #726f6f;
-  color: #f1f1f1;
-  font-weight: 400;
-  font-size: 15px;
-}
-
 .info-email {
   color: #eb1e08;
 }
-/* General info bottom */
-
-
-/* SEARCH PAGE TOP */
 
 .main-2-ctn {
   width: 100%;
@@ -344,6 +340,7 @@ a {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   padding-bottom: 60px;
 }
@@ -359,7 +356,7 @@ a {
 }
 
 .form-3 {
-  padding: 1px 0px;
+  padding: 1px 0;
   display: flex;
   align-items: flex-end;
 }
@@ -386,7 +383,7 @@ a {
 .btn-6 {
   border: none;
   border-radius: 2px;
-  padding: 6px 20px;
+  padding: 6px 16px;
   background-color: #0e0acec0;
   color: #f1f1f1;
   font-weight: 400;
@@ -397,7 +394,7 @@ a {
 }
 
 .btn-6 {
-  width: 100px;
+  width: 96px;
   background-color: rgb(230, 165, 45);
 }
 
@@ -435,7 +432,7 @@ a {
 }
 
 .r-txt > h3 {
-  margin: 0px 20px 5px 0;
+  margin: 0 20px 5px 0;
   border-bottom: 1px solid rgb(92, 85, 85);
 }
 
@@ -452,6 +449,18 @@ a {
   color: #c7c5c5;
 }
 
+.btn-3:hover {
+  background-color: rgb(212, 212, 211);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-4:hover {
+  background-color: rgb(136, 124, 124);
+  cursor: pointer;
+  outline: none;
+}
+
 .btn-5:hover {
   background-color: blue;
 }
@@ -463,10 +472,6 @@ a {
 .ft-logo:hover {
   cursor: pointer;
 }
-
-/* SEARCH PAGE BOTTOM */
-
-/* Sign UP TOP */
 
 .main-sign-ctn {
   width: 100%;
@@ -490,7 +495,7 @@ a {
 }
 
 .form-4 {
-  padding: 0px 0px;
+  padding: 0 0;
 }
 
 .input-4 {
@@ -543,11 +548,6 @@ a {
   padding: 6px 20px;
 }
 
-
-/* SIGN UP BOTTOM */
-
-
-/* Centre TOP */
 .main-centre-ctn {
   width: 100%;
   padding: 20px 0;
@@ -648,8 +648,6 @@ a {
   background-size: cover;
 }
 
-/* Centre BOTTOM */
-
 .links:hover {
   cursor: pointer;
   color: #000;
@@ -692,12 +690,16 @@ a {
     background-color: blue;
   }
 
+  .btn-2 {
+    left: 45%;
+  }
+
   .col-4 {
     grid-template-columns: 1fr;
   }
 
   .txt-ctn {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 
   .ft-1-ctn {
@@ -721,7 +723,7 @@ a {
     justify-content: space-around;
     width: 40%;
   }
-  
+
   .ft-hide2 {
     display: flex;
     justify-content: space-around;
@@ -731,7 +733,7 @@ a {
   .ft-links {
     display: none;
   }
-  
+
   .links:hover {
     padding: 5px 10px;
   }
@@ -771,6 +773,10 @@ a {
     margin-top: 5px;
   }
 
+  .btn-4 {
+    margin-top: 4px;
+  }
+
   .form {
     flex-direction: column;
   }
@@ -783,6 +789,7 @@ a {
   .process {
     padding: 5px 5px;
   }
+
   .gi-container {
     display: none;
   }
@@ -797,10 +804,6 @@ a {
 
   .input-2 {
     padding: 7px 0;
-  }
-
-  .btn-4 {
-    margin-top: 4px;
   }
 
   .ft-2-ctn {
@@ -825,7 +828,7 @@ a {
   .sign-section {
     margin: 10px;
   }
-  
+
   .fillin-ctn {
     width: 70%;
   }
@@ -834,7 +837,6 @@ a {
   .fillin .input-4 {
     font-size: 12px;
   }
-  
 }
 
 @media screen and (max-width: 578px) {
@@ -868,5 +870,4 @@ a {
   .infos > p {
     margin: 2px 0;
   }
-  
 }
