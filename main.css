@@ -384,7 +384,7 @@ a {
   border: none;
   border-radius: 2px;
   padding: 6px 16px;
-  background-color: #0e0acec0;
+  background-color: #447eb4;
   color: #f1f1f1;
   font-weight: 400;
   font-size: 13px;
@@ -428,7 +428,7 @@ a {
 }
 
 .r-txt a {
-  color: blue;
+  color: #447eb4;
 }
 
 .r-txt > h3 {
@@ -462,11 +462,11 @@ a {
 }
 
 .btn-5:hover {
-  background-color: blue;
+  background-color: rgb(36, 36, 235);
 }
 
 .btn-6:hover {
-  background-color: rgb(209, 142, 16);
+  background-color: #e6ac5b;
 }
 
 .ft-logo:hover {
