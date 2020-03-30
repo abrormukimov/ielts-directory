@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abrormukimov/newsweek-bts/ed4e66049c5e378957deca2cb5aa3b7e4550601b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abrormukimov/ielts-directory/8e49ddb170cbc1bf8008d461ff9ff1d5de0a97bb/index.html)
 
 ## Getting Started
 
@@ -69,7 +69,9 @@ Contributions, issues and feature requests are welcome! Start by:
 * Open a Pull Request with a detailed description to the development branch of the original project for a review
 * ## Acknowledgments
 
-- Microverse Inc
+- Microverse Inc;
+- [Mathew Njuguna](https://www.behance.net/mathewnjuguna);
+- [Sam Achola](https://www.behance.net/aweSam)
 
 ## 📝 License
 
