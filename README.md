@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abrormukimov/ielts-directory/8e49ddb170cbc1bf8008d461ff9ff1d5de0a97bb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abrormukimov/ielts-directory/7efc40d7a192523b2fdb4fae054911345428430e/index.html)
 
 ## Getting Started
 
