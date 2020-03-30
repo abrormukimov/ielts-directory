@@ -428,12 +428,13 @@ a {
 }
 
 .r-txt a {
-  color: #447eb4;
+  color: #0b5ca8;
+  font-weight: 900;
 }
 
 .r-txt > h3 {
   margin: 0 20px 5px 0;
-  border-bottom: 1px solid rgb(92, 85, 85);
+  border-bottom: 3px solid #f34423;
 }
 
 .ft-srch-page {
