@@ -69,7 +69,7 @@ Contributions, issues and feature requests are welcome! Start by:
 * Open a Pull Request with a detailed description to the development branch of the original project for a review
 * ## Acknowledgments
 
-- [Microverse Inc] (https://www.microverse.org);
+- [Microverse Inc] (https://www.microverse.org/);
 - [Mathew Njuguna](https://www.behance.net/mathewnjuguna);
 - [Sam Achola](https://www.behance.net/aweSam)
 
